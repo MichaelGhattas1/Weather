@@ -1,0 +1,68 @@
+
+*
+{
+    box-sizing: border-box;
+}
+body{
+    color: #bfc1c8;
+    font-family: 'sans-serif';
+    background:#1e202b;
+}
+a 
+{
+
+    color: #fff;
+}
+.navButton:hover
+{   
+    padding: .5rem 1rem ;
+    border: 1px solid #009ad8 !important;
+    border-radius:30px !important ;
+    color:#009ad8 !important;
+    background-color:transparent !important ;
+   
+}
+.btn
+{   
+    color:#fff !important;
+    border: none !important;
+    transition: all ease-in 1s ;
+    
+}
+.home
+{
+    background-image: url(../images/banner.png);
+    
+    background-position: center center;
+    background-size:100% 80%;
+    
+
+    background-repeat: no-repeat;
+}
+.light-chess
+{
+  background-color: rgba(0, 0, 0, 0.4) !important ;
+}
+.dark-chess
+{
+  background-color: rgba(0, 0, 0, 0.2) !important ;
+}
+@media screen and (max-width: 560px) {
+    .c{
+        width: 80%;
+        
+        background-color: rgba(0, 0, 0, 0.7);
+        
+    }
+    .d{
+        width: 80%;
+        border-top:3px solid white !important ;
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, 0.7);
+        
+    }
+    .dd
+    {
+        background-color: transparent !important;
+    }
+}
